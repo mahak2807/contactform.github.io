@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://i.ytimg.com/vi/5n_9EnY0vzk/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+form{
+    color:white;
+    background-color:rgb(5, 5, 5);
+    border: none;
+    width:100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    margin: auto ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px 30px 30px 30px;
+    position:center;
+    box-shadow: 0 0 10px #000000b3;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;  
+}
+#first {
+    border-radius: 3px;
+    margin-left: 2px;
+    width:227px;
+    }
+#second{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:227px;
+    }
+#number {
+    border-radius: 3px;
+    margin-left: 2px;
+    width:227px;
+    }
+#mail{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:227px; 
+    
+    } 
+#message {
+    border-radius: 3px;
+    margin-left:2px;
+    }
+#birth{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:227px;
+}
+#submit{
+    border-radius: 8px;
+}
+#reset{
+    border-radius: 8px; 
+}
+#submit:hover{
+    background-color: rgb(100, 98, 98);
+} 
+    
+#reset:hover{
+    background-color: rgb(100, 98, 98);
+}
+.sub{
+    padding-left: 63px;
+    
+}
+@media screen and (max-width:460px){
+    body{
+        margin: 25px auto 0;
+    }
+}
+    
