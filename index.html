@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>contactform</title>
+</head>
+<body>
+    <form id="displayform">
+        <div class="heading">
+            <h1>CONTACT US</h1><hr>
+        </div>
+        <div class="box">
+            <div> 
+                First Name*:<br><input type="text" required id="first" placeholder="First Name">  
+            </div><br>
+        <div >
+            Last Name*:<br><input type="text" required id="second" placeholder="Last Name">
+        </div><br>
+        <div>
+            Mobile Number*:<br><input type="number" required id="number" placeholder="Mobile number(Max 10 digits)">
+        </div><br>
+        <div>
+            Date Of Birth*:<br><input type="date" required id="birth" placeholder="DD/MM/YYYY">
+        </div><br>
+        <div class="id">
+            Email ID*:<br><input type="email" required id="mail" placeholder="Email id">
+        </div><br>
+        <div>  
+            Message:
+            <br>
+    	    <textarea rows="3" cols="30" id="message" placeholder="Text your message..."></textarea>
+        </div><br>
+        <div class="sub">
+            <input type="submit" id="submit" value="Submit">
+            <input type="reset" id ="reset" value="reset">
+        </div><br>
+    </div>
+</form>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
